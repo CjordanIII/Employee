@@ -1,38 +1,95 @@
-.App {
-  text-align: center;
+
+
+/* =================================Home Page=======================  */
+
+ img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50% ;
+    padding-left: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.employeeslist{
+   display: flex;
+   align-items: center;
+   width: 500px;
+   padding-bottom: 15px;
+   padding-top:10px;
+   border: 1px solid black;
+   margin: 10px auto 0 auto;
+   border-radius: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* centers both the title and the search emplyer page */
+
+.head{
+    text-align: center;
+}
+.search-container{
+    text-align: center;
+    margin: 10px;
+}
+.search{
+    width: 495px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid black;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.name-job{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+.name,.job{
+    margin: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.name{
+    font-size: x-large;
+    font-weight: bolder;
+}
+.job{
+    font-size: small;
+    font-weight: 100px;
+    color:grey;
+    margin-bottom: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* ========================Employer Page===================== */
+
+
+.Emplayeepage-list-item{
+    scale: 1.2;
+    margin-top: 55px;
 }
+.employees-list-details-div{
+    display: flex;
+    align-items: center;
+    width: 500px;
+    padding-bottom: 15px;
+    padding-top:10px;
+    border: 1px solid black;
+    margin: 0 auto 0 auto;
+    border-radius: 5px;
+ }
+
+ .description{
+    font-weight: bold;
+    margin: 0 ;
+ }
+ 
+ .sub-description{
+    font-weight: lighter;
+    margin: 0;
+ }
+
+ .description-sub-description-container{
+    margin: 1px auto 1px 10px;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .Emplayee-page-head{
+    text-align: center;
+ }
